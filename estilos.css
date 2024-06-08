@@ -254,6 +254,11 @@ nav {
     cursor: pointer;
     color: #f3e4c8;
 }
+.menu-toggle i 
+{
+    padding: 6px;
+    font-size: 44px;
+}
 /*-------------------------------------------------------------------------------------------
                                     FEATURE
 ---------------------------------------------------------------------------------*/
@@ -732,6 +737,16 @@ th, td {
     position: relative; 
     overflow: hidden;
     height: 217px;
+}
+.proximamente
+{
+    display: flex;
+    background-color: #e9e5dd;
+    text-align: center;
+    justify-content: center;
+    font-family: 'mensch';
+    font-size: 25px;
+    align-items: center;
 }
 .cuadradoProyectos .overlay {
     position: absolute;
