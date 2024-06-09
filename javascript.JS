@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const accordionHeight = Array.from(document.querySelectorAll('.accordion-container'))
                     .reduce((acc, container) => acc + (container.style.display === 'block' ? container.scrollHeight : 0), 0);
                 console.log(accordionHeight); 
-                BotonResp.style.marginTop = accordionHeight - 70 + "px";
+                BotonResp.style.marginTop = accordionHeight - 30 + "px";
                 console.log(BotonResp.style.marginTop);
                 
                 toggleContainer.style.display = 'none';
